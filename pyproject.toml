@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "watch"
+version = "0.1.0"
+description = ""
+authors = ["Connor McLean <c.mclean165@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+opencv-python = "^4.9.0.80"
+tflite-runtime = "^2.14.0"
+ultralytics = "^8.2.24"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
